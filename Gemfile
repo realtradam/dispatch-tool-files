@@ -5,6 +5,8 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in dispatch-tool-files.gemspec
 gemspec
 
+gem "dispatch-tools-interface", path: "dispatch-tools-interface"
+
 gem "irb"
 gem "rake", "~> 13.0"
 

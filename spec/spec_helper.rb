@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
+require "dispatch/tools/interface"
 require "dispatch/tool/files"
+require "tmpdir"
+require "fileutils"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
